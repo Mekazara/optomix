@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Marck+Script&family=Pattaya&family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+
+body {
+    margin: 0;
+   background-color: rgb(53, 47, 47);
+   font-family: 'Trebuchet MS', Helvetica; 
+}
+
+hr {
+    border: solid 1px white;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+
+h2 {
+    color: #3a3737;
+    padding: 1%;
+    margin: 1%;
+    font-size: 200%;
+}
+
+h6  {
+    font: normal 100% #48484891;
+    padding: 1%;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    padding: 10px 0.5% 0px 0.5%;
+    /* background: transparent; */
+    background-color: #150e0e7d;
+    position: fixed;
+}
+
+header #logo {
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    margin-top: 1%;
+}
+
+header #logo span {
+    font-size: 3em;
+    line-height: 45px;
+    margin-left: 40px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+#menubar {
+    float: right;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+ul#menu > li {
+    float: left;
+    list-style: none;
+    margin: auto;
+}
+
+ul#menu > li > a {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px 10px 25px;
+}
+
+ul#menu > li > a:hover {
+    color: #b0b0b0;
+    text-decoration: underline;
+}
+
+#top {
+    width: 104%;
+    height: 100%;
+    background-image: url(../img/background.JPG);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #c1b7b7;
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+}
+
+#top h1 {
+    padding-top: 10%;
+}
+
+#top h3 {
+    color: #ccc;
+}
+
+form#contact_us {
+    border-radius: 5px;
+    border: solid 1px #48484891;
+    width: 30%;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 1%;
+    background-color: #68655d25;
+    padding-top: 1%;
+}
+
+#contact_us > input[type="text"], #order > input[type="text"] {
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    width: 80%;
+    padding: 3%;
+    margin-top: 1%;
+}
+
+#contact_us > input[type="submit"], #order > input[type="submit"] {
+    padding: 1% 3%;
+    background-color: #efe1c2;
+    cursor: pointer;
+    border-collapse: inherit;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+#contact_us > input[type="submit"], #contact_us > input[type="text"] {
+    font: normal 30% 'trebuchet ms', sans-serif;
+}
+
+#contact_us > input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #908671;
+}
+
+#order > input[type="text"], #order > input[type="submit"] {
+    font: normal 100% 'trebuchet ms', sans-serif;
+}
+
+#order > input[type="submit"] {
+    margin-top: 3%;
+    margin-left: 33%;
+    background-color: #a25d41;
+    color: white;
+}
+
+#order_us > input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #69331d;
+}
+
+#about {
+    background-color: #e8bec3ad;
+    padding: 1% 3%;
+    width: 98%;
+}
+
+#about_info {
+    color: #3a3737;
+    font-size: 150%;
+    width: 80%;
+    margin-left: 5%;
+    margin-bottom: 7%;
+    margin-top: 1%;
+}
+
+#about_info > span {
+    font-size: 150%;
+    font-family: 'Pattaya', sans-serif;
+    color: black;
+}
+
+#catalog {
+    padding: 1% 3%;
+    width: 98%;
+    height: 205%;
+    background-color: #c3b9b9fa;
+    color: #484848;
+}
+
+#item {
+    width: 95%;
+    margin: 2% 1%;
+    padding: 2%;
+}
+
+#main_info {
+    float: left;
+    width: 40%;
+    margin: 1% 3%;
+}
+
+form#order {
+    float: right;
+    border-radius: 5px;
+    border: solid 1px #48484891;
+    width: 95%;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 1%;
+    background-color: #68655d25;
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+form#order > h6 {
+    font: normal 156% 'trebuchet ms', sans-serif;
+    color: #7b391f;
+    margin: 1%;
+    margin-left: 6%;
+}
+
+#item > img {
+    float: right;
+    width: 48%;
+    margin: 1% 4% 1% 2%;
+}
+
+#description {
+    width: 60%;
+    margin: 1%;
+}
+
+ul#desc_item > li {
+    list-style: none;
+    margin: auto;
+    font-family: 'Trebuchet MS', Helvetica;
+    font-size: 150%;
+    padding: 2px;
+}
+
+#offer {
+    width: 104%;
+    height: 75%;
+    background-image: url(../img/background2.JPG);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #d4c3c3;
+    font-size: 2em;
+}
+
+#offer > h2 {
+    color: white;
+    text-align: center;
+}
+
+#offers {
+    color: white;
+}
+
+#offers > ul {
+    margin: 1%;
+    padding: 1% 2%;
+}
+
+ul#promo > li {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2em;
+    padding: 1%;
+    margin: 1%;
+}
+
+ul#promo > li > span {
+    color: red;
+    font-size: 1.6em;
+}
+
+#contacts {
+    text-align: center;
+    padding: 1% 3%;
+    width: 98%;
+    background-color: #b5c1c7;
+    color: rgb(53 49 49);
+
+}
+
+#address {
+    padding: 1%;
+    margin: 1%;
+    font-size: 120%;
+    line-height: 150%;
+}
+
+#feedback {
+    padding: 1% 3%;
+    width: 98%;
+    background-color: #cbcbcb;
+    color: rgb(53 49 49);
+}
+
+#reviews {
+    margin-bottom: 4%;
+    font-size: 1.2em;
+}
+
+#reviews .review_name, #send_feedback {
+    background-color: #616161;
+    color: white;
+    padding: 1%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#reviews .review_text {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+.feedback_field {
+    text-align: center;
+}
+
+#send_feedback {
+    margin: 1% 30%;
+    width: 40%;
+    font-size: 1.2em;
+}
+
+#send_feedback > span {
+    margin: 2% 0;
+}
+
+#send_feedback input[type="text"], textarea {
+    border: solid 1px #c3c3c3;
+    border-top-right-radius: 5px;
+    margin-top: 2%;
+}
+
+#send_feedback input[type="text"] {
+    width: 100%;
+    font-size: 100%;
+}
+
+#send_feedback textarea {
+    width: 100%;
+    resize: none;
+    font-size: 100%;
+}
+
+#send_feedback input[type="submit"] {
+    width: 20%;
+    background-color: white;
+    padding: 2%;
+    color: black;
+    border-radius: 8px;
+}
+
+#send_feedback input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(248, 228, 228);
+}
+
+#footer {
+    width: 100%;
+    height: 10%;
+    padding: 10px 0.5% 0px 0.5%;
+    background-color: #66696c; 
+    text-align: center;
+    font: normal 100% sans-serif;
+}
+
+#footer > span {
+    font-size: 3em;
+    line-height: 120%;
+    font-family: 'Pattaya', sans-serif;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    header {
+        min-width: 100%;
+        height: 9%;
+        text-align: center;
+    }
+
+    header #logo {
+        width: 100%;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 1%;
+    }
+
+    header #logo span {
+        font-size: 1.7em; 
+    }
+
+
+    #top h1 {
+        padding-top: 10%;
+        font-size: 0.8em;
+    }
+
+    #top h3 {
+        color: #ccc;
+        font-size: 0.6em;
+    }
+
+    #top {
+        width: 104%;
+        height: 100%;
+        background-image: url(../img/background.JPG);
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #c1b7b7;
+        text-align: center;
+        color: #fff;
+        font-size: 0.8em;
+    }
+
+    #menubar {
+        text-align: center;
+        font-size: 0.7em;
+        line-height: 40px;
+        margin-right: 5%;
+        margin-top: 1%;
+    }
+}
